@@ -23,12 +23,12 @@ html {
     padding: 39px 0 62px 0; /* сверху, справа, снизу, слева */
 }
 
-.logo .logo_img {
+.logo_img {
     display: block;
     margin: 0 auto;
 }
 
-.logo .logo_text {
+.logo_text {
     color: #ffffff;
     font-family: Roboto;
     font-size: 15px;
@@ -45,7 +45,6 @@ h1 {
 
 .title {
     color: #f9bf3b;
-/*     font-family: 'Roboto Black', sans-serif; */
     font-size: 41px;
     font-weight: 900;
     font-style: normal;
@@ -55,7 +54,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.simple .title_big { /* внутри класса simple класс title_big */
+.title_big { /* внутри класса simple класс title_big */
     color: #ffffff;
     font-size: 80px;
     font-weight: 900;
@@ -70,7 +69,7 @@ h2.title { /* заголовок h2, у которого класс title */
     margin-top: 30px;
 }
 
-.promo .promo_text {
+.promo_text {
     color: #ffffff;
     font-family: Roboto;
     font-size: 21px;
@@ -83,7 +82,7 @@ h2.title { /* заголовок h2, у которого класс title */
     padding: 0 13px ; /* 0 по вертикале (top и bottom) и 13px по горизонтале (right и left) */
 }
 
-.promo .promo_text span {
+.promo_text span {
     color: #f9bf3b;
     font-weight: 700;
 }
@@ -94,7 +93,7 @@ h2.title { /* заголовок h2, у которого класс title */
     text-transform: uppercase;  
 }
 
-.promo  .promo_btn {
+.promo_btn {
     width: 313px;
     height: 72px;
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18); /* тень блока */
@@ -119,7 +118,7 @@ h2.title { /* заголовок h2, у которого класс title */
     margin-top: 73px;
 }
 
-.more .more_text {
+.more_text {
     color: #ffffff;
     font-family: "Roboto - Thin";
     font-size: 15px;
@@ -130,7 +129,7 @@ h2.title { /* заголовок h2, у которого класс title */
     text-transform: uppercase;
 }
 
-.more .more_img {
+.more_img {
     display: block;
     margin: 0 auto;
     margin-top: 13px;
@@ -140,6 +139,71 @@ h2.title { /* заголовок h2, у которого класс title */
 
 /* Waiting styles start */
 
+.waiting {
+    min-height: 604px; 
+    background-color: #efefef;
+    padding: 85px 0 75px 0; /* top, right, bottom, left */
+    display: block;
+}
+
+.waiting_header, .finish_header {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.finish_header {
+    color: #fff;
+}
+
+.waiting_divider, .finish_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 18px auto;
+}
+
+.waiting_subheader {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.waiting_wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between; /* равномерно распределяет элементы */
+}
+
+.waiting_item {
+    width: 339px;
+    text-align: center;
+
+}
+
+.waiting_img {
+    width: 100%;
+}
+
+.waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+}
 
 /* Waiting styles end */
     
