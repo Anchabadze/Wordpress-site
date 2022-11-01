@@ -181,7 +181,7 @@ h2.title { /* заголовок h2, у которого класс title */
 .waiting_wrapper {
     margin-top: 45px;
     display: flex;
-    justify-content: space-between; /* равномерно распределяет элементы */
+    justify-content: space-between; 
 }
 
 .waiting_item {
@@ -208,6 +208,47 @@ h2.title { /* заголовок h2, у которого класс title */
 /* Waiting styles end */
 
 /* Optimization styles start */
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #299cbd;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: justifyLeft;
+    margin-top: 25px;
+}
+
+.optimization .optimization_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: 48px;
+    left: -240px;
+    z-index: -1; 
+}
 
 /* Optimization styles end */
 
