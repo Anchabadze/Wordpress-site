@@ -210,7 +210,7 @@ h2.title { /* заголовок h2, у которого класс title */
 /* Optimization styles start */
 
 .optimization__wrapper {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .optimization .optimization_header {
@@ -235,6 +235,7 @@ h2.title { /* заголовок h2, у которого класс title */
     line-height: 27px;
     text-align: justifyLeft;
     margin-top: 25px;
+    margin-bottom: 3rem;
 }
 
 .optimization .optimization_text span {
@@ -244,7 +245,7 @@ h2.title { /* заголовок h2, у которого класс title */
 
 .optimization .optimization_img {
     position: absolute;
-    top: 48px;
+    top: -2rem;
     left: -240px;
     z-index: -1; 
 }
@@ -253,7 +254,45 @@ h2.title { /* заголовок h2, у которого класс title */
 
 /* Finish styles start */
 
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url(/img/bg/bg-finish.png) center center/cover no-repeat;
+}
 
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between; /* равномерно распределяет элементы */
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center; /* выравнивание по горизонтали ????*/
+    align-items: center; /* выравнивание по вертикали */
+    margin: 0 auto; /* выравнивание по горизонтали  ????*/
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
 
 /* Finish styles end */
 
