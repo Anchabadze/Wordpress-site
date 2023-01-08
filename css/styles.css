@@ -403,7 +403,33 @@ h2.title { /* заголовок h2, у которого класс title */
 
 /* Footer styles start */
 
+.footer {
+    min-height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
 
+.footer_wrapper {
+    margin: 0 auto;
+    color: #888888;
+    width: 377px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.footer a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
 
 /* Footer styles end */
 
